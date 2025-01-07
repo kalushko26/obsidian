@@ -1,45 +1,39 @@
 ---
-title: Welcome to Quartz 4
+title: Главная
+draft: false
 ---
+## Подготовка к собеседованиям
 
-Quartz is a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites. Thousands of students, developers, and teachers are [[showcase|already using Quartz]] to publish personal notes, websites, and [digital gardens](https://jzhao.xyz/posts/networked-thought) to the web.
+### Основные навыки
 
-## 🪴 Get Started
+* [[0000 Навигация/001 Frontend/001 HTML|HTML5]]
+* [[0000 Навигация/001 Frontend/002 CSS|CSS3]]
+* [[0000 Навигация/001 Frontend/003 JSCore|JavaScript]]
+* [[0000 Навигация/001 Frontend/005 TypeScript|TypeScript]]
+* [[0000 Навигация/001 Frontend/004 ReactCore|React19]]
+* [[0000 Навигация/001 Frontend/004 State Managers|State Managers]]
+* [[0000 Навигация/001 Frontend/006 Next.js|Next.js]]
+* [[0000 Навигация/001 Frontend/007 Jest, RTL|Jest, RTL]]
+* [[0000 Навигация/001 Frontend/008 Настройка окружения|Настройка окружения]]
+* [[0000 Навигация/001 Frontend/010 Архитектура Веб-приложений|Архитектура Веб-приложений]]
 
-Quartz requires **at least [Node](https://nodejs.org/) v18.14** and `npm` v9.3.1 to function correctly. Ensure you have this installed on your machine before continuing.
+### Дополнительные навыки:
 
-Then, in your terminal of choice, enter the following commands line by line:
+* [[0000 Навигация/100 Git|Инструменты разработчика]]
+* [[0000 Навигация/200 Браузерное окружение|Браузерное окружение]]
+* [[0000 Навигация/300 Паттерны|Паттерны]]
+* [[__Алгоритмы|Решение задач: Грокаем алгоритмы]]
 
-```shell
-git clone https://github.com/jackyzha0/quartz.git
-cd quartz
-npm i
-npx quartz create
-```
+* [[0000 Навигация/002 Backend/002 Node.js|Node.js]]
+* Nest.js - в разработке
 
-This will guide you through initializing your Quartz with content. Once you've done so, see how to:
+### Практические навыки:
 
-1. [[authoring content|Writing content]] in Quartz
-2. [[configuration|Configure]] Quartz's behaviour
-3. Change Quartz's [[layout]]
-4. [[build|Build and preview]] Quartz
-5. [[hosting|Host]] Quartz online
+* [[0000 Навигация/001 Frontend/011 Решение задач JS, TS и React|Решение задач]]
 
-> [!info]
-> Coming from Quartz 3? See the [[migrating from Quartz 3|migration guide]] for the differences between Quartz 3 and Quartz 4 and how to migrate.
+**Проверь себя!**
 
-## 🔧 Features
-
-- [[Obsidian compatibility]], [[full-text search]], [[graph view]], note transclusion, [[wikilinks]], [[backlinks]], [[Latex]], [[syntax highlighting]], [[popover previews]], [[Docker Support]], and [many more](./features) right out of the box
-- Hot-reload for both configuration and content
-- Simple JSX layouts and [[creating components|page components]]
-- [[SPA Routing|Ridiculously fast page loads]] and tiny bundle sizes
-- Fully-customizable parsing, filtering, and page generation through [[making plugins|plugins]]
-
-For a comprehensive list of features, visit the [features page](/features). You can read more about the _why_ behind these features on the [[philosophy]] page and a technical overview on the [[architecture]] page.
-
-### 🚧 Troubleshooting + Updating
-
-Having trouble with Quartz? Try searching for your issue using the search feature. If you haven't already, [[upgrading|upgrade]] to the newest version of Quartz to see if this fixes your issue.
-
-If you're still having trouble, feel free to [submit an issue](https://github.com/jackyzha0/quartz/issues) if you feel you found a bug or ask for help in our [Discord Community](https://discord.gg/cRFFHYye7t).
+* [[001 Review - WebCore|WebCore]]
+* [[002 Review - JavaScript|JSCore]]
+* [[003 Review - React|ReactCore]]
+* [[004 Review - Boss|Final Boss]]

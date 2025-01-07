@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"35a5fc067799a64d","x":-180,"y":-400,"width":344,"height":120,"type":"text","text":"Это не относится к Бизнес-логике и является общим переиспользуемым служебным кодом,"},
+		{"id":"544e3ad4185eaad0","x":-180,"y":-220,"width":344,"height":120,"type":"text","text":"Это относится непосредственно к бизнес-сущности?"},
+		{"id":"0222cd59b162a94b","type":"text","text":"SHARED","x":260,"y":-280,"width":160,"height":60},
+		{"id":"a114b63146184667","type":"text","text":"ENTITIES","x":260,"y":-130,"width":160,"height":60},
+		{"id":"e55c5222bec9084d","type":"text","text":"Это относится к действию пользователя, представляющему бизнес-ценность?","x":-180,"y":-40,"width":344,"height":120},
+		{"id":"5f6ed0ffdb36bc74","type":"text","text":"FEATURES","x":260,"y":40,"width":160,"height":60},
+		{"id":"a3a1e2c6bdcc0811","type":"text","text":"Это самостоятельный и полноценный блок страницы с конкретными действиями?","x":-180,"y":140,"width":344,"height":120},
+		{"id":"f6753bfa945749ff","type":"text","text":"WIDGETS","x":260,"y":230,"width":160,"height":60},
+		{"id":"0c682472324aa774","type":"text","text":"Это относится к конкретной странице/экрану?","x":-180,"y":340,"width":344,"height":120},
+		{"id":"8c0d4846a628594d","type":"text","text":"PAGES","x":260,"y":430,"width":160,"height":60},
+		{"id":"ba03d14a7002b51d","type":"text","text":"Это относится к конкретному юзкейсу, протекающему через несколько страниц?","x":-180,"y":540,"width":344,"height":120},
+		{"id":"8a91696fa046c258","type":"text","text":"PROCESSES","x":260,"y":630,"width":160,"height":60},
+		{"id":"af2e96fbef41fee6","type":"text","text":"Это общая инициализирующая логика приложения?","x":-180,"y":740,"width":344,"height":120},
+		{"id":"66f1fc9ba0ce795d","type":"text","text":"APP","x":260,"y":830,"width":160,"height":60}
+	],
+	"edges":[
+		{"id":"d592dd006789c8c0","fromNode":"35a5fc067799a64d","fromSide":"bottom","toNode":"544e3ad4185eaad0","toSide":"top","label":"нет"},
+		{"id":"edbbca6c49881ba7","fromNode":"35a5fc067799a64d","fromSide":"right","toNode":"0222cd59b162a94b","toSide":"left","label":"да"},
+		{"id":"e78a70d09b358bfa","fromNode":"544e3ad4185eaad0","fromSide":"right","toNode":"a114b63146184667","toSide":"left","label":"да"},
+		{"id":"8f877ba27a4fbf0a","fromNode":"e55c5222bec9084d","fromSide":"right","toNode":"5f6ed0ffdb36bc74","toSide":"left","label":"да"},
+		{"id":"77ef2c427138b443","fromNode":"a3a1e2c6bdcc0811","fromSide":"right","toNode":"f6753bfa945749ff","toSide":"left","label":"да"},
+		{"id":"6ea628ca5d198227","fromNode":"e55c5222bec9084d","fromSide":"bottom","toNode":"a3a1e2c6bdcc0811","toSide":"top","label":"нет"},
+		{"id":"b31500f539c3f614","fromNode":"544e3ad4185eaad0","fromSide":"bottom","toNode":"e55c5222bec9084d","toSide":"top","label":"нет"},
+		{"id":"bb8f9e934b4e36d7","fromNode":"a3a1e2c6bdcc0811","fromSide":"bottom","toNode":"0c682472324aa774","toSide":"top","label":"нет"},
+		{"id":"cc853216c6702739","fromNode":"0c682472324aa774","fromSide":"right","toNode":"8c0d4846a628594d","toSide":"left","label":"да"},
+		{"id":"1b50a1aab1741a70","fromNode":"0c682472324aa774","fromSide":"bottom","toNode":"ba03d14a7002b51d","toSide":"top"},
+		{"id":"d02f3bb379c38ce4","fromNode":"ba03d14a7002b51d","fromSide":"right","toNode":"8a91696fa046c258","toSide":"left","label":"да"},
+		{"id":"14312c933a174b87","fromNode":"ba03d14a7002b51d","fromSide":"bottom","toNode":"af2e96fbef41fee6","toSide":"top","label":"нет"},
+		{"id":"c417fca4f5845f49","fromNode":"af2e96fbef41fee6","fromSide":"right","toNode":"66f1fc9ba0ce795d","toSide":"left","label":"да"}
+	]
+}
