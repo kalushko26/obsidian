@@ -21,7 +21,7 @@ function TableOfContents({ fileData, displayClass }: QuartzComponentProps) {
   return (
     <div class={`toc ${displayClass ?? ""}`}>
       <button type="button" id="toc" class={fileData.collapseToc ? "collapsed" : ""}>
-        <h3>Table of Contents</h3>
+        <h3>Заголовки</h3>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -62,7 +62,7 @@ function LegacyTableOfContents({ fileData }: QuartzComponentProps) {
   return (
     <details id="toc" open={!fileData.collapseToc}>
       <summary>
-        <h3>Table of Contents</h3>
+        <h3>Заголовки</h3>
       </summary>
       <ul>
         {fileData.toc.map((tocEntry) => (
